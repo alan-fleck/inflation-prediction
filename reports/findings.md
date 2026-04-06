@@ -68,7 +68,7 @@ Explicitly modelling the GFC, COVID, and post-COVID surge with binary dummies su
 - **Data scope:** Only seven macroeconomic variables were used. Supply-side drivers (e.g. commodity prices, shipping costs, producer prices) were excluded and could improve predictive power.
 - **Look-ahead in dummies:** The crisis dummies are defined using knowledge of when crises occurred. In a true real-time forecasting setting, these would not be available in advance.
 - **Tree model extrapolation:** Random Forest and Gradient Boosting are fundamentally interpolators. Their poor performance on the post-2021 surge is structural, not a tuning issue.
-- **No formal time-series modelling:** ARIMA or VAR models were not benchmarked. Adding these would strengthen the comparison.
+
 
 ---
 
